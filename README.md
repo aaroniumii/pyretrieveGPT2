@@ -25,6 +25,6 @@ Some dependencies are:
 3. Typer: To handle the interactive command line interface.
 4. Rich: To format console output.
 
-Please refer to the requirements.txt file for a complete list of dependencies. Or you can install these packages with pip:
+Please refer to the requirements.txt file for a complete list of dependencies.
 
 Any improvement is welcome.
