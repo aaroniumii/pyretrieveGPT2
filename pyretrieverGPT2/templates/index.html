@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PyRetrieverGPT2.0　for web browser</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="titulo">PyRetrieverGPT2.0　for web browser</h1>
+    <main>
+        <form method="POST" onsubmit="document.body.className='wait'">
+            <textarea name="query" placeholder="Enter your query here"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        {% if response %}
+        <p class="respuesta">PyRG>>> {{ response }}</p>
+        {% endif %}
+    </main>
+    <footer class="subtitulo">powered by aaroniumii</footer>
+</body>
+</html>
