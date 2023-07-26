@@ -20,8 +20,6 @@ To close, hit ctrl+c in the terminal.
 Some dependencies are:
 1. OpenAI: To generate semantic embeddings and responses.
 2. Langchain: For handling the creation and management of the semantic search index.
-3. Typer: To handle the interactive command line interface.
-4. Rich: To format console output.
 
 Please refer to the requirements.txt file for a complete list of dependencies.
 
