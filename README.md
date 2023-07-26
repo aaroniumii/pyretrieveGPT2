@@ -1,4 +1,4 @@
-# pyretrieveGPT2
+# PyRetrieveGPT2
 An interactive Python application that utilizes OpenAI and the Langchain library to retrieve and respond to user queries. It's primarily designed to fetch data from a dataset and present it in an appealing, user-friendly format. Unlike its predecessor which was a CLI (Command Line Interface) tool, this version allows users to interact through a web browser.
 
 # Features
